@@ -71,11 +71,13 @@ def process_garden_data(json_data):
 
 
 with open('save-data.json', 'r') as f:
+    usda_zone = input(f"Which USDA zone are you?")
+
     json_data = json.load(f)
 
     phrases = process_garden_data(json_data)
     for phrase in phrases:
         print(phrase)
 
-    advice = get_advice(",".join(phrases))
+    advice = get_advice(",".join(phrases), usda_zone)
     print(advice)

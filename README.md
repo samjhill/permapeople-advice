@@ -2,8 +2,46 @@
 
 Analyzes your garden with the goal of improving its performance, with an eye toward permaculture principles.
 
+## Example Output
 
-## Setup
+![garden plan example](images/garden.png)
+
+To optimize your garden layout for improved growth and yield, here are several suggestions tailored to Zone 7, integrating permaculture principles:
+
+### Plant Spacing and Arrangement
+1. **Re-evaluate Tree Spacing**: Ensure that each tree, especially fruit-bearing ones, has enough space for root expansion and canopy growth. For your layout, consider a minimum of around 15-20 feet between each tree for optimal air circulation and sunlight exposure.
+
+2. **Companion Planting**:
+    - **Persimmon and Persimmon-companion Plants**: Consider underplanting with comfrey, which can enhance nutrient availability for the persimmon while serving as a pollinator attractant.
+    - **Lavender**: Works well as a companion for many fruit trees by attracting pollinators and repelling some pests. Given its presence near multiple fruit trees, consider maintaining its position.
+    - **Blueberries (Northern Highbush Blueberry)**: They prefer acidic soil conditions and can benefit from mulching with acidic materials. Pair with comfrey and low-growing ericaceous plants that do not compete for root space.
+
+3. **Strategic Plant Groupings**: Group trees like apples (Granny Smith, McIntosh), peaches (Elberta, Red Skin), and nectarines together with appropriate spacing and compatible guild plantings underneath to improve symbiosis and efficiency.
+
+### Sunlight Exposure
+- **Orient Trees**: Avoid shade competition by ensuring taller trees are placed optimally so they do not overshadow shorter or sun-loving plants. Ensure south-facing exposure for high sunlight requirements, like for peaches and nectarines.
+
+### Irrigation Efficiency
+1. **Drip Irrigation System**: Implementing a drip system will ensure consistent and efficient water distribution, helping reduce evaporation. It is particularly beneficial for the Mediterranean plants like lavender.
+
+2. **Mulching**: Use organic mulch around the base of trees and shrubs to retain moisture and reduce water loss, particularly crucial during dry spells in zone 7.
+
+### Accessibility and Maintenance
+1. **Pathways**: Clearly define paths with mulch or stepping stones to ensure easy access for maintenance and harvesting without compacting the soil around crucial root zones.
+
+2. **Raised Beds for Underplanting**: Consider adding raised beds for herbs or companion plants among the fruit trees to facilitate maintenance.
+
+### Underplanting Suggestions
+- **Herbs like Thyme and Oregano**: These can serve both as underplantings to attract beneficial insects and as culinary assets.
+- **Comfrey**: Excellent for nitrogen fixing and as a ground cover under taller trees.
+- **Clover**: Acts as a ground cover and nitrogen fixer, which can support fruit trees.
+
+### Adjustments
+- **Reassess Elderberry Positioning**: Given that Elderberry can grow quite large, ensure it is placed to allow for easy maintenance access and to prevent shading more light-demanding plants.
+
+By implementing these adjustments and observations into your garden's design, you can enhance productivity, maintain biodiversity, and improve the overall sustainability of your permaculture system.
+
+## Application Setup
 
 Set up your python virtual environment:
 
@@ -29,8 +67,6 @@ OPENAI_API_KEY=....
 
 Create a garden plan at [Permapeople.org](https://permapeople.org/plans/new) and save it. 
 
-![garden plan example](images/garden.png)
-
 
 Open up the developer tools, go to the Application tab, and copy the json blob contained in the `value` field into save-data.json (located in the root of this project).
 
@@ -40,33 +76,3 @@ Open up the developer tools, go to the Application tab, and copy the json blob c
 python3 -m main
 ```
 
-## Example Output
-
-To optimize your garden layout using permaculture principles, there are several key areas to focus on: plant spacing, companion planting, sunlight exposure, irrigation efficiency, and accessibility for maintenance. Here's a breakdown of how you can improve your garden's growth and yield:
-
-### Plant Spacing
-- **Trees and Shrubs**: Ensure that fruit trees such as apples, peaches, and persimmons are spaced adequately to avoid competition for resources. The current spacing seems reasonable, but for better air circulation and sunlight penetration, ensure at least 15-20 feet between mature trees like apples and peaches.
-- **Bushes and Small Plants**: Lavender and blueberries are positioned fairly close to other plants. While this can create beneficial microclimates, ensure that there’s enough space (around 3-4 feet) to account for their mature size and airflow.
-
-### Companion Planting
-- **Lavender**: It is a good companion to fruit trees due to its pest-repelling properties. Its presence near the blueberries and fruit trees is beneficial.
-- **Elderberry**: It can serve as a windbreak and attract beneficial insects. Ensure it’s well-integrated with other plants for mutual benefits.
-- **Fruit Trees**: Consider underplanting with nitrogen-fixing plants or herbs that attract pollinators for enhanced mutual benefits.
-
-### Sunlight Exposure
-- Assess sunlight exposure throughout the day, ensuring that sun-loving plants receive adequate light. Fruit trees generally require full sun, so avoid shading each other or critical areas.
-- **Shade Considerations**: Larger trees like Japanese Maple should be positioned to avoid casting extensive shade over sun-loving plants like peaches and apples.
-
-### Irrigation Efficiency
-- **Drip Irrigation**: Implement a drip irrigation system to ensure water reaches the root systems efficiently while reducing evaporation.
-- **Mulching**: Use mulch around your plants to retain soil moisture, suppress weeds, and enrich the soil as it breaks down.
-
-### Accessibility for Maintenance
-- Ensure pathways are sufficiently wide (2-3 feet minimum) and clear for easy access to plants for maintenance tasks such as pruning, harvesting, and monitoring plant health.
-- Consider the position of structures like the shed for easy access to tools and resources.
-
-### General Adjustments
-- **Streamlining Layout**: Place small plants and herbs strategically under or between larger shrubs and trees to maximize space usage and create layered plantings.
-- **Wind Breaks**: If the garden faces strong winds, use taller shrubs or hedges as windbreaks on the windward sides.
-
-By optimizing these aspects, you can create a garden that thrives with improved growth and yield. Regularly assess your garden's specific microclimates and soil conditions for tailored adjustments.
