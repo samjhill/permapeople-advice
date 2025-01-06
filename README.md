@@ -1,4 +1,4 @@
-# Permaculture Advice
+# Permaplot: Permaculture Advice
 
 Analyzes your garden with the goal of improving its performance, with an eye toward permaculture principles.
 
