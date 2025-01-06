@@ -57,7 +57,7 @@ def process_garden_data(json_data):
 
         # Find nearest element and distance
         nearest, distance = find_nearest_element(x, y, json_data["elements"])
-        nearest_label = nearest.get("data", {}).get("labels", ["Unknown"])[0] if nearest else None
+        nearest_label = nearest.get("data", {}).get("labels", ["Unknown"])[0] if nearest and "labels" in nearest else None
         distance_in_feet = distance * scale
         nearby_info = f", approximately {distance_in_feet:.1f} feet from the {nearest_label}" if nearest_label else ""
 
