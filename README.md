@@ -4,6 +4,8 @@ Analyzes your garden with the goal of improving its performance, with an eye tow
 
 ## Example Output
 
+Initial garden plan:
+
 ![garden plan example](images/garden.png)
 
 To optimize your garden layout for improved growth and yield, here are several suggestions tailored to Zone 7, integrating permaculture principles:
@@ -40,6 +42,12 @@ To optimize your garden layout for improved growth and yield, here are several s
 - **Reassess Elderberry Positioning**: Given that Elderberry can grow quite large, ensure it is placed to allow for easy maintenance access and to prevent shading more light-demanding plants.
 
 By implementing these adjustments and observations into your garden's design, you can enhance productivity, maintain biodiversity, and improve the overall sustainability of your permaculture system.
+
+
+Garden plan updated with this advice:
+
+![garden plan updated with advice](images/update-w-advice.png)
+
 
 ## Application Setup
 
