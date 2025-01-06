@@ -8,6 +8,8 @@ Initial garden plan:
 
 ![garden plan example](images/garden.png)
 
+Feedback from the tool:
+
 To optimize your garden layout for improved growth and yield, here are several suggestions tailored to Zone 7, integrating permaculture principles:
 
 ### Plant Spacing and Arrangement
