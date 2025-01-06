@@ -1,6 +1,6 @@
 # Permaplot: Permaculture Advice
 
-Analyzes your garden with the goal of improving its performance, with an eye toward permaculture principles.
+A companion for the https://permapeople.org garden planning tool. Analyzes your garden with the goal of improving its performance, with an eye toward permaculture principles.
 
 ## Example Output
 
